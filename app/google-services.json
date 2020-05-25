@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "437394854370",
+    "firebase_url": "https://foodrecognition-29175.firebaseio.com",
+    "project_id": "foodrecognition-29175",
+    "storage_bucket": "foodrecognition-29175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437394854370:android:a322920b7229ca82ece9bb",
+        "android_client_info": {
+          "package_name": "com.example.food_recognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437394854370-llnkk05cqsqhad592n7kutpp1vmam0q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUiUYD2N6u7WunqPDTZNC6WXagWH-ixY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437394854370-llnkk05cqsqhad592n7kutpp1vmam0q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437394854370:android:b5f77f53656d071bece9bb",
+        "android_client_info": {
+          "package_name": "com.example.foodrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437394854370-d48p4scbcim3120ddf3gllme9bjmemh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodrecognition",
+            "certificate_hash": "41a7b93fb37e1a415931861ff6864c72f7f3c53f"
+          }
+        },
+        {
+          "client_id": "437394854370-llnkk05cqsqhad592n7kutpp1vmam0q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIUiUYD2N6u7WunqPDTZNC6WXagWH-ixY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437394854370-llnkk05cqsqhad592n7kutpp1vmam0q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
