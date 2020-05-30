@@ -13,7 +13,7 @@ import com.google.firebase.ml.custom.FirebaseCustomRemoteModel
 class MainActivity : AppCompatActivity() {
 
     //Custom model adı
-    private val HOSTED_MODEL_NAME = "foods"
+    private val HOSTED_MODEL_NAME = "Fruits-360"
     private val TAG = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
