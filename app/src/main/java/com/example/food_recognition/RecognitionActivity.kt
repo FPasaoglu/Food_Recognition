@@ -28,12 +28,12 @@ class RecognitionActivity : AppCompatActivity() {
     //Model Formatı "Quantization veya Floating olabilir.
     //Bundan dolayı bir if bloğu işleminde geçireceğiz
     //Kullanacağımız model formatı Quantization olduğundan - isQuant değişkeni True
-    private val isQuant: Boolean = true
+    private val isQuant: Boolean = false
     //Quant ve Float olması durumunda işleme sokulacak default değerler
     private val FLOAT_VALUE = 4
     private val QUANT_VALUE = 1
     //Dataset verilerini içeren labels.txt
-    private val LABEL_PATH = "dict.txt"
+    private val LABEL_PATH = "labels.txt"
     //Kameradan gelen verinin modele verilmesi için boyut düzenlemesi
     private val DIM_BATCH_SIZE = 1
     private val DIM_PIXEL_SIZE = 3
@@ -72,7 +72,7 @@ class RecognitionActivity : AppCompatActivity() {
     private fun initFirebase() {
         labelList = loadLabelList()
         try {
-            val remoteModel = FirebaseCustomRemoteModel.Builder("foods").build()
+            val remoteModel = FirebaseCustomRemoteModel.Builder("Fruits-360").build()
             val modelOptions = FirebaseModelInterpreterOptions.Builder(remoteModel).build()
             interpreter = FirebaseModelInterpreter.getInstance(modelOptions)
             val inputDims =
