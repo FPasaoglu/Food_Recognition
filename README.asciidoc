@@ -1,0 +1,13 @@
+## Firebase ile Yiyecek Tanıyan Mobil Uygulama 
+
+* Mobil uygulama için Android Studio üzerinde , Kotlin dili kullanarak bir uygulama yazdık. 
+
+* Hazır veri setini eğittiğimiz ve elde ettiğimiz modeli Firebase üzerinde kullanabilmek adına .tflite formatına dönüştürdük.
+
+* Ardından android uygulamamız için Firebase senkronizasyonu yapıldı ve tasarım oluşturuldu. Böylece Firebase içerisine model olarak eklediğimiz .tflite formatlı dosyamız , android uygulamada ilk olarak .json formatlı google servisi ile haberleşecek ve Firebase’den dosya indirecek şeklinde kodlama yapıldı. 
+
+* Böylece telefona indirilen .tflite modeli yiyecek tanıması yapabiliyor hale geldi ve uygulama offline olarak da çalışabilir hale geldi. Bu uygulama gelişime açık olup, kalori hesaplanması ile insanoğluna dengeli beslenme , diyet ve neticede sağlık alanında çok önemli katkılar sunacaktır.
+
+##### Örnek çıktı
+
+image::pepper.png[]
